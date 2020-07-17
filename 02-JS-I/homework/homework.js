@@ -99,11 +99,10 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var z = x / y;
-  var r = x - (y*z);
-  return r ;
   
-  //?¡
+  return x % y ;
+  
+  
 }
 
 function esPar(num) {
